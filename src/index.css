@@ -20,9 +20,30 @@ code {
     monospace;
 }
 
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
 .uppdrag {
-  width: 100%;
+  height: 500px;
+  padding: 20px;
   background-color: #640101;
   color: #FFFFFF;
+}
+
+.pristagare {
+  height: 500px;
   padding: 20px;
+}
+
+.ledamoter {
+  height: 500px;
+  padding: 20px;
+  background-color: #640101;
+  color: #FFFFFF;
 }
