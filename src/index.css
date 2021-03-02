@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
@@ -20,6 +21,10 @@ code {
     monospace;
 }
 
+h1 {
+  font-size: 64px;
+}
+
 h2 {
   font-size: 48px;
 }
@@ -27,6 +32,15 @@ h2 {
 h3 {
   font-size: 35px;
   font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .uppdrag {
@@ -46,4 +60,19 @@ h3 {
   padding: 20px;
   background-color: #640101;
   color: #FFFFFF;
+}
+
+.historiaWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.akademinsUppdrag {
+  padding: 20px;
+  background-color: #640101;
+  color: #FFFFFF;
+}
+
+.historia {
+  padding: 20px;
 }
