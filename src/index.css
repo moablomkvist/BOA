@@ -43,6 +43,15 @@ a:hover {
   text-decoration: underline;
 }
 
+p {
+  font-size: 16px;
+}
+
+.start-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .uppdrag {
   height: 500px;
   padding: 20px;
@@ -76,3 +85,17 @@ a:hover {
 .historia {
   padding: 20px;
 }
+
+.link-element {
+  display: flex;
+  flex-direction: row-reverse;
+  font-weight: bold;
+}
+
+.arrow {
+  width: 30px;
+  margin-left: 10px;
+}
+
+
+
