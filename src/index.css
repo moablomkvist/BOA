@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   font-family: 'IBM Plex Sans', sans-serif;
@@ -15,5 +24,5 @@ code {
   width: 100%;
   background-color: #640101;
   color: #FFFFFF;
-  
+  padding: 20px;
 }
