@@ -1,9 +1,12 @@
 import React from 'react'
 
+import { TillbakaKnapp } from 'components/TillbakaKnapp'
+
 export const Historia = () => {
   return (
-    <section className="historiaWrapper">
-      <article className="akademinsUppdrag">
+    <section className="historia-wrapper">
+      <TillbakaKnapp />
+      <article className="akademins-uppdrag">
         <h1>Akademins uppdrag</h1>
         <p>
           Bild och Ord Akademin är ett tvärvetenskapliga forum för olika yrkesgrupper inom informationsområdet, med uppgift att motverka specialisering och fragmentisering. 

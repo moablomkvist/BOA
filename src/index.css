@@ -71,12 +71,12 @@ p {
   color: #FFFFFF;
 }
 
-.historiaWrapper {
+.historia-wrapper {
   display: flex;
   flex-direction: column;
 }
 
-.akademinsUppdrag {
+.akademins-uppdrag {
   padding: 20px;
   background-color: #640101;
   color: #FFFFFF;
@@ -97,5 +97,25 @@ p {
   margin-left: 10px;
 }
 
+.back-link-element {
+  display: flex;
+  flex-direction: flex-start;
+  font-weight: bold;
+}
+
+.back-link {
+  display: flex;
+  flex-direction: flex-start;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.back-link:hover {
+  text-decoration: none;
+}
+
+.back-text {
+  padding-left: 5px;
+}
 
 
