@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
@@ -20,6 +21,10 @@ code {
     monospace;
 }
 
+h1 {
+  font-size: 64px;
+}
+
 h2 {
   font-size: 48px;
 }
@@ -27,6 +32,15 @@ h2 {
 h3 {
   font-size: 35px;
   font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 p {
@@ -72,6 +86,21 @@ p {
   color: #FFFFFF;
 }
 
+.historia-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.akademins-uppdrag {
+  padding: 20px;
+  background-color: #640101;
+  color: #FFFFFF;
+}
+
+.historia {
+  padding: 20px;
+}
+
 .link-element {
   display: flex;
   flex-direction: row-reverse;
@@ -83,5 +112,25 @@ p {
   margin-left: 10px;
 }
 
+.back-link-element {
+  display: flex;
+  flex-direction: flex-start;
+  font-weight: bold;
+}
+
+.back-link {
+  display: flex;
+  flex-direction: flex-start;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.back-link:hover {
+  text-decoration: none;
+}
+
+.back-text {
+  padding-left: 5px;
+}
 
 
