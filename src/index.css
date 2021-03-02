@@ -29,6 +29,15 @@ h3 {
   font-weight: 400;
 }
 
+p {
+  font-size: 16px;
+}
+
+.start-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .uppdrag {
   height: 500px;
   padding: 20px;
@@ -47,3 +56,17 @@ h3 {
   background-color: #640101;
   color: #FFFFFF;
 }
+
+.link-element {
+  display: flex;
+  flex-direction: row-reverse;
+  font-weight: bold;
+}
+
+.arrow {
+  width: 30px;
+  margin-left: 10px;
+}
+
+
+
