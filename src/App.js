@@ -1,6 +1,8 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
+
+import { Header } from 'components/Header'
 import { Startsida } from 'pages/Startsida'
 import { Historia } from 'pages/Historia'
 import { Ledamoter } from 'pages/Ledamoter'
@@ -10,6 +12,7 @@ export const App = () => {
   return (
     <BrowserRouter>
       <div>
+      <Header />
         <Switch>
 
           <Route path="/" exact>
