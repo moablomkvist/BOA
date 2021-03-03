@@ -101,10 +101,21 @@ p {
   padding: 20px;
 }
 
-.link-element {
+.white-arrow-link-element {
   display: flex;
   flex-direction: row-reverse;
   font-weight: bold;
+  color: white;
+}
+
+.black-arrow-link-element {
+  display: flex;
+  flex-direction: row-reverse;
+  font-weight: bold;
+}
+
+.white-arrow-link-element:hover, .black-arrow-link-element:hover {
+  text-decoration: none;
 }
 
 .arrow {
@@ -132,5 +143,3 @@ p {
 .back-text {
   padding-left: 5px;
 }
-
-

@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-
 import { Header } from 'components/Header'
 import { Startsida } from 'pages/Startsida'
 import { Historia } from 'pages/Historia'
@@ -12,7 +11,7 @@ export const App = () => {
   return (
     <BrowserRouter>
       <div>
-      <Header />
+        <Header />
         <Switch>
 
           <Route path="/" exact>
