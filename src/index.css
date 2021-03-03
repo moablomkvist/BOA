@@ -174,3 +174,64 @@ a:hover {
   flex-direction: column;
   font-size: 10px;
 }
+
+/* ACCORIDON */
+
+h3 {
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+p { 
+  line-height: 1.75rem;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  background: #c4c4c4;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: left;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  padding: 1rem;
+}
+
+button.active {
+  background-color: #dfbd85;
+  color: #ffffff;
+  border: #dfbd85 solid 1px;
+}
+
+button:hover {
+    background-color: #dfbd85;
+}
+
+.title-wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.minus {
+  background-color: #640101;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 0;
+}
+
+.plus {
+  background-color: #dfbd85;
+  width: 24px;
+  height: 24px;
+  transform: rotate(90deg);
+  transition-timing-function: ease-in;
+  transition: all 1s;
+  position: absolute;
+  right: 0;
+}
