@@ -1,11 +1,13 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-import { Header } from 'components/Header'
 import { Startsida } from 'pages/Startsida'
 import { Historia } from 'pages/Historia'
 import { Ledamoter } from 'pages/Ledamoter'
 import { Priser } from 'pages/Priser'
+
+import { Header } from 'components/Header'
+import { Footer } from 'components/Footer'
 
 export const App = () => {
   return (
@@ -31,6 +33,7 @@ export const App = () => {
           </Route>
 
         </Switch>
+        <Footer />
       </div>
     </BrowserRouter>
   )

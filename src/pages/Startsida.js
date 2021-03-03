@@ -14,7 +14,7 @@ export const Startsida = () => {
       </article>
 
       <article className="pristagare">
-        <h2>Pristagare</h2>
+        <h2>Pristagare 2019</h2>
         <h3>Bibi Rödöö</h3>
         <h3>Anders Hansen</h3>
         <Link to="/priser" className="black-arrow-link-element">
