@@ -180,9 +180,7 @@ a:hover {
 /* ACCORDION */
 
 .accordion-wrapper {
-  & + * {
-    margin-top: 0.5em;
-  }
+  
 }
 
 .accordion-item {

@@ -12,18 +12,15 @@ export const Priser = () => {
       >
         <h3 className="lidman-rubrik">Lidmanpriset</h3>
         <div className={`accordion-item ${!isOpen ? "collapsed" : ""}`}>
-          {data.priser.lidmanpriset.map((lidmanpriset) => {
-            return (
-              <section key={lidmanpriset.year}>
-                <p className="accordion-content">
-                  {" "}
-                  {lidmanpriset.year} {lidmanpriset.pristagare}
-                </p>
-              </section>
-            );
-          })}
-        </div>
-      </div>
-    </section>
-  );
-};
+    {data.priser.lidmanpriset.map(lidmanpriset => { 
+    return (
+      <section key={lidmanpriset.year}>
+      <p className="accordion-content" > {lidmanpriset.year} {lidmanpriset.pristagare}</p>
+      </section>
+      )
+  })} 
+  </div>
+  </div>
+  </section>
+)}
+
