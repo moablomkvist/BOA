@@ -65,22 +65,29 @@ p {
 /* PAGES */
 
 .uppdrag {
-  height: 500px;
   padding: 20px;
   background-color: #640101;
   color: #FFFFFF;
 }
 
 .pristagare {
-  height: 500px;
   padding: 20px;
 }
 
 .ledamoter {
-  height: 500px;
   padding: 20px;
   background-color: #640101;
   color: #FFFFFF;
+}
+
+.bild-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ledamoter-bild {
+  width: 100%
 }
 
 .historia-wrapper {
