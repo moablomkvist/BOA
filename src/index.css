@@ -33,6 +33,7 @@ h2 {
 h3 {
   font-size: 35px;
   font-weight: 400;
+  margin: 10;
 }
 
 p {
@@ -95,7 +96,7 @@ p {
 }
 
 .historia {
-  padding: 30px 20px 0 20px ;
+  padding: 0 20px;
 }
 
 /* LINKS */
@@ -177,84 +178,3 @@ a:hover {
 }
 
 /* ACCORDION */
-
-
-button {
-  display: flex;
-  align-items: center;
-  background: #c4c4c4;
-  border-radius: 1rem;
-  border: none;
-  font-size: 1.2rem;
-  width: 100%;
-  text-align: left;
-  color: #ffffff;
-  font-weight: bold;
-  margin-top: 0.5rem;
-  padding: 1rem;
-}
-
-button.active {
-  background-color: #dfbd85;
-  color: #ffffff;
-  border: #dfbd85 solid 1px;
-}
-
-button:hover {
-    background-color: #dfbd85;
-}
-
-.title-wrapper {
-  display: block;
-  position: relative;
-  width: 100%;
-}
-
-.minus {
-  background-color: #640101;
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  right: 0;
-}
-
-.plus {
-  background-color: #dfbd85;
-  width: 24px;
-  height: 24px;
-  transform: rotate(90deg);
-  transition-timing-function: ease-in;
-  transition: all 1s;
-  position: absolute;
-  right: 0;
-}
-
-.panel-close { 
-  background: #e0e0e0;
-  box-sizing: border-box;
-  padding: 0.5rem 1rem 0 1rem;
-  opacity:0;
-  width:100%;
-  height:0;
-  overflow: hidden;
-  transition-timing-function: ease-out;
-  transition: all 1s;
-}
-
-.panel-open {
-  overflow: hidden;
-  background: #e0e0e0;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  box-sizing: border-box;
-  border-radius: 1rem;
-  opacity:1;
-  width:100%;
-  height: auto;
-  transition-timing-function: ease-in;
-  transition: all 1s;
-}
-
-.panel p {
-  margin: 0;
-}
