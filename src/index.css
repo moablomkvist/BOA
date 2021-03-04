@@ -179,6 +179,11 @@ a:hover {
 
 /* ACCORDION */
 
+.accordion-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .accordion-item {
   overflow: hidden;
   transition: max-height 0.3s cubic-bezier(1, 0, 1, 0);
@@ -192,6 +197,8 @@ a:hover {
 }
 
 .accordion-title {
+  display: flex;
+  flex-direction: column;
   font-weight: 600;
   cursor: pointer;
   color: #666;
@@ -201,20 +208,6 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.accordion-title:after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid currentColor;
-}
-
-accordion-title:hover,
-.open {
-  color: black;
 }
 
 .accordion-content {

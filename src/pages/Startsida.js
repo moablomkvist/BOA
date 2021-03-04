@@ -25,6 +25,7 @@ export const Startsida = () => {
 
       <article className="ledamoter">
         <h2>Ledamöter</h2>
+        <img className="ledamoter-bild" src="" alt="ledamoter-boa"/>
         <Link to="/ledamöter" className="white-arrow-link-element">
           <img className="arrow" src="assets/white-right-arrow.svg" alt="arrow-link"/>
           <p>Akademins stolar</p>
