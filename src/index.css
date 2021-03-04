@@ -23,6 +23,7 @@ code {
 
 h1 {
   font-size: 64px;
+  margin: 30px 0;
 }
 
 h2 {
@@ -90,10 +91,11 @@ p {
   padding: 20px;
   background-color: #640101;
   color: #FFFFFF;
+  height: 450px;
 }
 
 .historia {
-  padding: 20px;
+  padding: 30px 20px 0 20px ;
 }
 
 /* LINKS */
@@ -148,34 +150,33 @@ a:hover {
 
 /* FOOTER */
 
+.footer-heading {
+  margin: 30px 0 30px 15px;
+}
+
 .footer-wrapper {
   display: flex;
 }
 
-.footer-logo {
-  width: 100%;
-}
-
-.footer-logo-section {
+.footer-section {
   display: flex;
-  flex-direction: space-evenly;
-  width: 100%;
-  height: auto;
-}
-
-.footer-text-section {
-  display: flex;
-  flex-direction: space-evenly;
-  width: 100%;
+  width: 50%;
 }
 
 .footer-text {
   display: flex;
   flex-direction: column;
-  font-size: 10px;
+  font-size: 14px;
+  margin: 0 15px;
 }
 
-/* ACCORIDON */
+.footer-logo {
+  object-fit: fill; 
+  width: 20%;
+  margin: 30px 15px 25px 15px;
+}
+
+/* ACCORDION */
 
 h3 {
   font-size: 1.75rem;

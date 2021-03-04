@@ -7,9 +7,9 @@ export const Historia = () => {
     <section className="historia-wrapper">
       <TillbakaKnapp />
       <article className="akademins-uppdrag">
-        <h1>Akademins uppdrag</h1>
+        <h1>Uppdraget</h1>
         <p>
-          Bild och Ord Akademin är ett tvärvetenskapliga forum för olika yrkesgrupper inom informationsområdet, med uppgift att motverka specialisering och fragmentisering. 
+          Bild och Ord Akademin är ett tvärvetenskapligt forum för olika yrkesgrupper inom informationsområdet, med uppgift att motverka specialisering och fragmentisering. 
           Akademin ska uppmuntra och ge stöd åt dagens informatörer, samtidigt som den ska förbättra utbildningen av morgondagens.
         </p>
       </article>
