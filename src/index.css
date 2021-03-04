@@ -177,83 +177,58 @@ a:hover {
 
 /* ACCORIDON */
 
-
-button {
-  display: flex;
-  align-items: center;
-  background: #c4c4c4;
-  border-radius: 1rem;
-  border: none;
-  font-size: 1.2rem;
-  width: 100%;
-  text-align: left;
-  color: #ffffff;
-  font-weight: bold;
-  margin-top: 0.5rem;
-  padding: 1rem;
+.accordion-wrapper {
+  & + * {
+    margin-top: 0.5em;
+  }
 }
 
-button.active {
-  background-color: #dfbd85;
-  color: #ffffff;
-  border: #dfbd85 solid 1px;
-}
-
-button:hover {
-    background-color: #dfbd85;
-}
-
-.title-wrapper {
-  display: block;
-  position: relative;
-  width: 100%;
-}
-
-.minus {
-  background-color: #640101;
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  right: 0;
-}
-
-.plus {
-  background-color: #dfbd85;
-  width: 24px;
-  height: 24px;
-  transform: rotate(90deg);
-  transition-timing-function: ease-in;
-  transition: all 1s;
-  position: absolute;
-  right: 0;
-}
-
-.panel-close { 
-  background: #e0e0e0;
-  box-sizing: border-box;
-  padding: 0.5rem 1rem 0 1rem;
-  opacity:0;
-  width:100%;
-  height:0;
+.accordion-item {
   overflow: hidden;
-  transition-timing-function: ease-out;
-  transition: all 1s;
-}
-
-.panel-open {
-  overflow: hidden;
-  background: #e0e0e0;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  box-sizing: border-box;
-  border-radius: 1rem;
-  opacity:1;
-  width:100%;
+  transition: max-height 0.3s cubic-bezier(1, 0, 1, 0);
   height: auto;
-  transition-timing-function: ease-in;
-  transition: all 1s;
+  max-height: 9999px;
 }
 
-.panel p {
-  margin: 0;
+.accordion-item.collapsed {
+  max-height: 0;
+  transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
+}
+
+.accordion-title {
+  font-weight: 600;
+  cursor: pointer;
+  color: #666;
+  padding: 0.5em 1.5em;
+  border: solid 1px #ccc;
+  border-radius: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid currentColor;
+  }
+
+  &:hover,
+  &.open {
+    color: black;
+  }
+
+  &.open {
+    &::after {
+      content: "";
+      border-top: 0;
+      border-bottom: 5px solid;
+    }
+  }
+}
+
+.accordion-content {
+  padding: 1em 1.5em;
 }

@@ -3,25 +3,23 @@ import data from '../data.json';
 
 
 export const Priser = () => {
-const [active, setActive] = useState(false);
+const [isOpen, setOpen] = useState(false);
   
-
-
-const eventHandler = (event) => {
-  event.preventDefault();
-  setActive(true)
-  };
-
-
 return (
-  <section>
+  <section className="accordion-wrapper">
+    <div className={`accordion-title ${isOpen ? "open" : ""}`}
+      onClick={() => setOpen(!isOpen)}>
+        <h3 className="lidman-rubrik">Lidmanpriset</h3>
+        <div className={`accordion-item ${!isOpen ? "collapsed" : ""}`}>
   {data.priser.lidmanpriset.map(lidmanpriset => { 
     return (
-      <>
-      <p>{lidmanpriset.year}</p>
-      <p>{lidmanpriset.pristagare}</p>
-      </>
+      <section key={lidmanpriset.year}>
+      <p className="accordion-content" > {lidmanpriset.year} {lidmanpriset.pristagare}</p>
+      </section>
       )
   })} 
+  </div>
+  </div>
   </section>
 )}
+
