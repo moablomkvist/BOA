@@ -34,15 +34,6 @@ h3 {
   font-weight: 400;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 p {
   font-size: 16px;
 }
@@ -52,13 +43,15 @@ p {
   flex-direction: column;
 }
 
-.header {
-  padding: 20px;
-  margin: 30px 0px 30px 0px;
-}
+/* HEADER */
 
 .logo {
   width: 100%;
+}
+
+.header {
+  padding: 20px;
+  margin: 30px 0px 30px 0px;
 }
 
 .sub-heading {
@@ -66,6 +59,8 @@ p {
   text-align: center;
   font-size: 18px;
 }
+
+/* PAGES */
 
 .uppdrag {
   height: 500px;
@@ -101,6 +96,17 @@ p {
   padding: 20px;
 }
 
+/* LINKS */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .white-arrow-link-element {
   display: flex;
   flex-direction: row-reverse;
@@ -112,10 +118,6 @@ p {
   display: flex;
   flex-direction: row-reverse;
   font-weight: bold;
-}
-
-.white-arrow-link-element:hover, .black-arrow-link-element:hover {
-  text-decoration: none;
 }
 
 .arrow {
@@ -144,8 +146,36 @@ p {
   padding-left: 5px;
 }
 
+/* FOOTER */
 
-/* Accordian */
+.footer-wrapper {
+  display: flex;
+}
+
+.footer-logo {
+  width: 100%;
+}
+
+.footer-logo-section {
+  display: flex;
+  flex-direction: space-evenly;
+  width: 100%;
+  height: auto;
+}
+
+.footer-text-section {
+  display: flex;
+  flex-direction: space-evenly;
+  width: 100%;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+/* ACCORIDON */
 
 
 button {

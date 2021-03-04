@@ -1,11 +1,13 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 
 export const Header = () => {
   return (
     <section className="header">
-      <img className="logo" src="./assets/BOA.png" alt="logo"></img>
-      <p className="sub-heading">Bild & Ord Akadmin</p>
+      <Link to ="/">
+        <img className="logo" src="./assets/BOA.png" alt="logo"/>
+      </Link>
+      <p className="sub-heading">Bild & Ord Akademin</p>
     </section>
   )
 }
