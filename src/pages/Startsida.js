@@ -14,12 +14,12 @@ export const Startsida = () => {
       </article>
 
       <article className="pristagare">
-        <h2>Pristagare 2019</h2>
+        <h2>Aktuella pristagare</h2>
         <h3>Bibi Rödöö</h3>
         <h3>Anders Hansen</h3>
         <Link to="/priser" className="black-arrow-link-element">
           <img className="arrow" src="assets/black-right-arrow.svg" alt="arrow-link"/>
-          <p>Tidigare priser</p>
+          <p>Priser</p>
         </Link>
       </article>
 

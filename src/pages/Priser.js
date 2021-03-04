@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import data from '../data.json';
 
-
 export const Priser = () => {
 const [isOpen, setOpen] = useState(false);
   
