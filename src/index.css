@@ -36,6 +36,12 @@ h3 {
   margin: 10;
 }
 
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 5;
+}
+
 p {
   font-size: 16px;
 }
@@ -72,6 +78,11 @@ p {
 
 .pristagare {
   padding: 20px;
+}
+
+.priser {
+  padding: 20px;
+  background-color: #f2ebdf;
 }
 
 .ledamoter {
@@ -133,9 +144,7 @@ p {
   height: 400px;
 }
 
-.pristagare {
-  padding: 20px;
-}
+
 
 /* LINKS */
 
@@ -229,6 +238,14 @@ a:hover {
   max-height: 9999px;
 }
 
+.list-title-icon{
+  display: flex;
+}
+
+.title-icon{
+  margin-right: 5px;
+}
+
 .accordion-item.collapsed {
   max-height: 0;
   transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
@@ -245,9 +262,8 @@ a:hover {
   border-radius: 1.5em;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .accordion-content {
-  padding: 1em 1.5em;
+  padding: 0 30px;
 }

@@ -10,12 +10,18 @@ export const Lidman = () => {
       <div
         className={`accordion-title ${isOpen ? "open" : ""}`}
         onClick={() => setOpen(!isOpen)}>
-        <h4>Lidmanpriset</h4>
+          <div className="list-title-icon">
+            <img className="title-icon" src="assets/list-icon.svg" alt="list-icon"/>
+            <h4>Lidmanpriset</h4>
+          </div>
         <div className={`accordion-item ${!isOpen ? "collapsed" : ""}`}>
     {data.priser.lidmanpriset.map(lidmanpriset => { 
     return (
       <section key={lidmanpriset.year}>
-      <p className="accordion-content" > {lidmanpriset.year} {lidmanpriset.pristagare}</p>
+          <div className="accordion-content"> 
+          <h4>{lidmanpriset.year}</h4> 
+          <p>{lidmanpriset.pristagare}</p>
+        </div>
       </section>
       )
   })} 
