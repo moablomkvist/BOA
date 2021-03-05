@@ -40,6 +40,7 @@ export const Ledamoter = () => {
         <li>Cecilia Johansson, planner</li>
         <li>Peder Jonsson, teknologie doktor</li>
         <li>Björn Karlsson, redaktör</li>
+        <li>Jacob Kimvall, konstvetare</li>
         <li>Christina Knight, creative director</li>
         <li>Carolina Laudon, typsnittstecknare & art director</li>
         <li>Inga Lewenhaupt, filosofie doktor och teater- och musikforskare</li>
@@ -50,7 +51,6 @@ export const Ledamoter = () => {
         <li>Georg Sessler, konstnär</li>
         <li>Richard Wahlund, professor</li>
         <li>Bengt Wanselius, fotograf och filmare</li>
-        <li>Marianne von Baumgarten-Lindberg, journalist och förläggare</li>
         <li>Torgny Wärn, journalist och tecknare</li>
       </ul>
     </article>
