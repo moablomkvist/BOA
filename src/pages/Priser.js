@@ -17,7 +17,7 @@ export const Priser = () => {
         </p>
       </article>
 
-      <article className="pristagare">
+      <article className="priser">
         <h3>Vinnare av Lidmanpriset</h3>
         <p>
           Som belönar god information i ord och bild.
