@@ -53,7 +53,7 @@ p {
 
 .header {
   padding: 20px;
-  margin: 30px 0px 30px 0px;
+  margin: 30px 0px 10px 0px;
 }
 
 .sub-heading {
@@ -103,7 +103,38 @@ p {
 }
 
 .historia {
+  padding: 20px;
+  background-color: #F2EBDF;
+  color: black;
+}
+
+.ledamöter-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.akademins-stolar {
+  padding: 20px;
+  background-color: #640101;
+  color: #FFFFFF;
+  height: 500px;
+}
+
+.listade-ledamöter {
   padding: 0 20px;
+  background-color: #F2EBDF;
+  color: black;
+}
+
+.akademins-priser {
+  padding: 20px;
+  background-color: #640101;
+  color: #FFFFFF;
+  height: 400px;
+}
+
+.pristagare {
+  padding: 20px;
 }
 
 /* LINKS */
