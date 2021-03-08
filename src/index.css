@@ -144,7 +144,66 @@ p {
   height: 400px;
 }
 
+/* VISITKORT */
 
+.visitcard-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.visit-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  margin: 5px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.card-title {
+  margin-bottom: 5px;
+  color: #640101;
+  border-bottom: 4px double #640101;
+}
+
+/* RESPONSIVE - TABLET */
+@media (min-width: 667px) and (max-width: 1024px) {
+  .visitcard-container {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .visit-card {
+    width: 40%;
+  }
+
+  .akademins-stolar-innehåll{
+    width: 80%;
+    font-size: 18px;
+  }
+
+}
+
+
+/* RESPONSIVE - DESKTOP*/
+@media (min-width: 1025px) {
+  .visitcard-container {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .visit-card {
+    width: 25%;
+  }
+
+  .akademins-stolar-innehåll{
+    width: 40%;
+    font-size: 18px;
+  }
+}
 
 /* LINKS */
 

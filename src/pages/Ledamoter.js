@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { TillbakaKnapp } from 'components/TillbakaKnapp'
+import { Visitkort } from 'components/Visitkort'
 
 export const Ledamoter = () => {
   return(
@@ -8,7 +9,7 @@ export const Ledamoter = () => {
     <TillbakaKnapp />
     <article className="akademins-stolar">
       <h1>Akademins stolar</h1>
-      <p>
+      <p className="akademins-stolar-innehåll">
         I akademin sitter välrenommerade personer inom olika kreativa verksamhetsområden.
         Journalister, copywriters och redaktörer.
         Arkitekter, konstnärer och fotografer. 
@@ -17,42 +18,8 @@ export const Ledamoter = () => {
       </p>
     </article>
     <article className="listade-ledamöter">
-      <h3>Invalda ledamöter</h3>
-      <ul>
-        <li>Tom Alandh, journalist och dokumentärfilmare</li>
-        <li>Jan-Erik Ander, tecknare och creative director</li>
-        <li>Solbritt Benneth, arkeolog</li>
-        <li>Bo Bergström, art director</li>
-        <li>Caroline Birgersson, copywriter och utbildare</li>
-        <li>Moa Blomkvist, copywriter och utbildare</li>
-        <li>Anna Clarén, fotograf</li>
-        <li>Kristin Dahl, filosofie doktor</li>
-        <li>Anders Engman, fotograf</li>
-        <li>Bobo Engström, arkitekt</li>
-        <li>Maria Eriksson, filmregissör</li>
-        <li>Björn Fjaestad, publicist</li>
-        <li>Marcus Gärde, grafisk designer</li>
-        <li>Catharina Grünbaum, filosofie hedersdoktor och språkvårdare</li>
-        <li>Bengt Gullbring, art director</li>
-        <li>Owe Gustafson, illustratör och filmtecknare</li>
-        <li>Anders Hanser, fotograf och filmare</li>
-        <li>Sture Hegefors, tecknare</li>
-        <li>Cecilia Johansson, planner</li>
-        <li>Peder Jonsson, teknologie doktor</li>
-        <li>Björn Karlsson, redaktör</li>
-        <li>Jacob Kimvall, konstvetare</li>
-        <li>Christina Knight, creative director</li>
-        <li>Carolina Laudon, typsnittstecknare & art director</li>
-        <li>Inga Lewenhaupt, filosofie doktor och teater- och musikforskare</li>
-        <li>Krister Nathanaelson, tv-producent</li>
-        <li>Elisabeth Reslegård, projektledare</li>
-        <li>Annika Röhl, grafisk redaktör</li>
-        <li>Anna Schytt, vetenskapsjournalist</li>
-        <li>Georg Sessler, konstnär</li>
-        <li>Richard Wahlund, professor</li>
-        <li>Bengt Wanselius, fotograf och filmare</li>
-        <li>Torgny Wärn, journalist och tecknare</li>
-      </ul>
+      <h3>BOA:s ledamöter</h3>
+        <Visitkort />
     </article>
   </section>
 )
