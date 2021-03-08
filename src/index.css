@@ -267,3 +267,15 @@ a:hover {
 .accordion-content {
   padding: 0 30px;
 }
+
+
+/* RESPONSIVE - TABLET */
+@media (min-width: 667px) and (max-width: 1024px) {
+  
+}
+
+
+/* RESPONSIVE - DESKTOP*/
+@media (min-width: 1025px) {
+  
+}
