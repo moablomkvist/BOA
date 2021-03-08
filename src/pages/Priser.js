@@ -18,14 +18,14 @@ export const Priser = () => {
       </article>
 
       <article className="priser">
-        <h3>Vinnare av Lidmanpriset</h3>
+        <h3>Lidmanpriset</h3>
         <p>
-          Som belönar god information i ord och bild.
+          Belönar god information i ord och bild.
         </p>
         <Lidman />
-        <h3>Vinnare av Ann-Marie Lunds Encyklopedipris</h3>
+        <h3>Ann-Marie Lunds Encyklopedipris</h3>
         <p>
-          För folkbildande insatser och ett populärt berättande av encyklopedisk art och bredd.  
+          Belönar folkbildande insatser och ett populärt berättande av encyklopedisk art och bredd.  
         </p>
         <Encyklopedi />
       </article>
