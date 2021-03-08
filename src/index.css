@@ -177,7 +177,7 @@ a:hover {
 }
 
 .ledamoter-bild {
-  width: 100%
+  width: 100%;
 }
 
 .letter-box-B, .letter-box-O, .letter-box-A  {
@@ -220,9 +220,9 @@ main {
 
 .uppdrag {
   width: 50%;
+
 }
 
-<<<<<<< HEAD
 p {
   font-size: 20px;
 }
@@ -230,7 +230,107 @@ p {
 .footer-text {
   font-size: 16px;
   padding: 30px;
-=======
+}
+
+.pristagare {
+  width: 50%;
+}
+
+.ledamoter {
+  padding: 20px;
+  width: 50%;
+}
+
+.bild-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ledamoter-bild {
+  width: 100%;
+}
+
+.letter-box-B {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  background-color: #640101;
+  padding: 40px;
+}
+
+.letter-box-O {
+  display: flex;
+  width: 50%;
+  background-color: #ffff;
+  padding: 40px;
+}
+
+.letter-box-A {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  background-color: #640101;
+  padding: 20px;
+}
+
+.letter {
+  padding: 10px;
+  width: 50%;
+}
+
+.footer-heading {
+  font-size: 56px;
+}
+
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 15px;
+}
+
+}
+
+/* Historia */
+.historia-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.akademins-uppdrag {
+  padding: 20px;
+  background-color: #640101;
+  color: #FFFFFF;
+  height: 450px;
+}
+
+.historia {
+  padding: 20px;
+  background-color: #F2EBDF;
+  color: black;
+}
+
+/* Ledamoter */
+.ledamöter-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.akademins-stolar {
+  padding: 20px;
+  background-color: #640101;
+  color: #FFFFFF;
+  height: 500px;
+}
+
+.listade-ledamöter {
+  padding: 40px 20px;
+  background-color: #F2EBDF;
+  color: black;
+}
+
 /* VISITKORT */
 
 .visitcard-container {
@@ -272,7 +372,6 @@ p {
 
 }
 
-
 /* RESPONSIVE - DESKTOP*/
 @media (min-width: 1025px) {
   .visitcard-container {
@@ -290,92 +389,6 @@ p {
     width: 40%;
     font-size: 18px;
   }
->>>>>>> e37cbb44aa8ad27c543e178e29f7462bd0bb6191
-}
-
-.pristagare {
-  width: 50%;
-}
-
-.ledamoter {
-  padding: 20px;
-  width: 50%;
-}
-
-.letter {
-  padding: 10px;
-  width: 50%;
-}
-
-.letter-box-B {
-  display: flex;
-  justify-content: flex-end;
-  width: 50%;
-  background-color: #640101;
-}
-
-.letter-box-O {
-  display: flex;
-  width: 50%;
-  background-color: #ffff;
-}
-
-.letter-box-A {
-  display: flex;
-  justify-content: flex-end;
-  width: 50%;
-  background-color: #640101;
-  padding: 20px;
-}
-
-.footer-heading {
-  font-size: 56px;
-}
-
-.logo-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 30%;
-  padding: 15px;
-}
-
-/* Historia */
-.historia-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.akademins-uppdrag {
-  padding: 20px;
-  background-color: #640101;
-  color: #FFFFFF;
-  height: 450px;
-}
-
-.historia {
-  padding: 20px;
-  background-color: #F2EBDF;
-  color: black;
-}
-
-/* Ledamoter */
-.ledamöter-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.akademins-stolar {
-  padding: 20px;
-  background-color: #640101;
-  color: #FFFFFF;
-  height: 500px;
-}
-
-.listade-ledamöter {
-  padding: 40px 20px;
-  background-color: #F2EBDF;
-  color: black;
 }
 
 /* Priser */
@@ -428,6 +441,4 @@ p {
 
 .accordion-content {
   padding: 0 30px;
-}
-
 }
