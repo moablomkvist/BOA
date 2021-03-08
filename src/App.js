@@ -12,7 +12,7 @@ import { Footer } from 'components/Footer'
 export const App = () => {
   return (
     <BrowserRouter>
-      <div>
+      <main>
         <Header />
         <Switch>
 
@@ -34,7 +34,7 @@ export const App = () => {
 
         </Switch>
         <Footer />
-      </div>
+      </main>
     </BrowserRouter>
   )
 }

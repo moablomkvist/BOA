@@ -13,6 +13,14 @@ export const Startsida = () => {
         </Link>
       </article>
 
+      <article className="letter-box-B">
+        <img className="letter" src="assets/B.png" alt="letter image"/>
+      </article>
+
+      <article className="letter-box-O">
+        <img className="letter" src="assets/B.png" alt="letter image"/>
+      </article>
+
       <article className="pristagare">
         <h2>Aktuella pristagare</h2>
         <h3>Bibi Rödöö</h3>
@@ -33,6 +41,11 @@ export const Startsida = () => {
           <p>Akademins stolar</p>
         </Link>
       </article>
+
+      <article className="letter-box-A">
+        <img className="letter" src="assets/B.png" alt="letter image"/>
+      </article>
+
     </section>
   )
 }

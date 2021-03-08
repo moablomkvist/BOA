@@ -23,8 +23,8 @@ export const Footer = () => {
           </p>
         </section>
       </div>
-      
-      <section>
+
+      <section className="logo-section">
         <img className="footer-logo" src="./assets/BOA.png" alt="logo" />
       </section>
     </>

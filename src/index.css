@@ -51,101 +51,6 @@ p {
   flex-direction: column;
 }
 
-/* HEADER */
-
-.logo {
-  width: 100%;
-}
-
-.header {
-  padding: 20px;
-  margin: 30px 0px 10px 0px;
-}
-
-.sub-heading {
-  border-top: 2px solid;
-  text-align: center;
-  font-size: 18px;
-}
-
-/* PAGES */
-
-.uppdrag {
-  padding: 20px;
-  background-color: #640101;
-  color: #FFFFFF;
-}
-
-.pristagare {
-  padding: 20px;
-}
-
-.priser {
-  padding: 20px;
-  background-color: #f2ebdf;
-}
-
-.ledamoter {
-  padding: 20px;
-  background-color: #640101;
-  color: #FFFFFF;
-}
-
-.bild-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.ledamoter-bild {
-  width: 100%
-}
-
-.historia-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.akademins-uppdrag {
-  padding: 20px;
-  background-color: #640101;
-  color: #FFFFFF;
-  height: 450px;
-}
-
-.historia {
-  padding: 20px;
-  background-color: #F2EBDF;
-  color: black;
-}
-
-.ledamöter-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.akademins-stolar {
-  padding: 20px;
-  background-color: #640101;
-  color: #FFFFFF;
-  height: 500px;
-}
-
-.listade-ledamöter {
-  padding: 40px 20px;
-  background-color: #F2EBDF;
-  color: black;
-}
-
-.akademins-priser {
-  padding: 20px;
-  background-color: #640101;
-  color: #FFFFFF;
-  height: 400px;
-}
-
-
-
 /* LINKS */
 
 a {
@@ -196,6 +101,23 @@ a:hover {
   padding-left: 5px;
 }
 
+/* HEADER */
+
+.logo {
+  width: 100%;
+}
+
+.header {
+  padding: 20px;
+  margin: 30px 0px 10px 0px;
+}
+
+.sub-heading {
+  border-top: 2px solid;
+  text-align: center;
+  font-size: 18px;
+}
+
 /* FOOTER */
 
 .footer-heading {
@@ -222,6 +144,184 @@ a:hover {
   object-fit: fill; 
   width: 20%;
   margin: 30px 15px 25px 15px;
+}
+
+/* PAGES */
+
+/* Startsida */
+.uppdrag {
+  padding: 20px;
+  background-color: #640101;
+  color: #FFFFFF;
+}
+
+.pristagare {
+  padding: 20px;
+}
+
+.priser {
+  padding: 20px;
+  background-color: #f2ebdf;
+}
+
+.ledamoter {
+  padding: 20px;
+  background-color: #640101;
+  color: #FFFFFF;
+}
+
+.bild-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ledamoter-bild {
+  width: 100%
+}
+
+.letter-box-B, .letter-box-O, .letter-box-A  {
+  display: none;
+}
+
+/* RESPONSIVE - TABLET */
+@media (min-width: 667px) and (max-width: 1024px) {
+  
+}
+
+/* RESPONSIVE - DESKTOP Startsida*/
+@media (min-width: 1025px) {
+
+.header {
+  width: 40%;
+  margin: 0;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+
+.logo {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-heading {
+  margin: 0;
+}
+
+.start-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.uppdrag {
+  width: 50%;
+}
+
+p {
+  font-size: 20px;
+}
+
+.footer-text {
+  font-size: 16px;
+  padding: 30px;
+}
+
+.pristagare {
+  width: 50%;
+}
+
+.ledamoter {
+  padding: 20px;
+  width: 50%;
+}
+
+.letter {
+  padding: 10px;
+  width: 50%;
+}
+
+.letter-box-B {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  background-color: #640101;
+}
+
+.letter-box-O {
+  display: flex;
+  width: 50%;
+  background-color: #ffff;
+}
+
+.letter-box-A {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  background-color: #640101;
+  padding: 20px;
+}
+
+.footer-heading {
+  font-size: 56px;
+}
+
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 15px;
+}
+
+/* Historia */
+.historia-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.akademins-uppdrag {
+  padding: 20px;
+  background-color: #640101;
+  color: #FFFFFF;
+  height: 450px;
+}
+
+.historia {
+  padding: 20px;
+  background-color: #F2EBDF;
+  color: black;
+}
+
+/* Ledamoter */
+.ledamöter-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.akademins-stolar {
+  padding: 20px;
+  background-color: #640101;
+  color: #FFFFFF;
+  height: 500px;
+}
+
+.listade-ledamöter {
+  padding: 40px 20px;
+  background-color: #F2EBDF;
+  color: black;
+}
+
+/* Priser */
+.akademins-priser {
+  padding: 20px;
+  background-color: #640101;
+  color: #FFFFFF;
+  height: 400px;
 }
 
 /* ACCORDION */
@@ -268,14 +368,4 @@ a:hover {
   padding: 0 30px;
 }
 
-
-/* RESPONSIVE - TABLET */
-@media (min-width: 667px) and (max-width: 1024px) {
-  
-}
-
-
-/* RESPONSIVE - DESKTOP*/
-@media (min-width: 1025px) {
-  
 }
