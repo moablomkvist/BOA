@@ -101,7 +101,7 @@ a:hover {
   padding-left: 5px;
 }
 
-/* RESPONSIVE - TABLET */
+/* Links - TABLET */
 @media (min-width: 667px) and (max-width: 1024px) {
 
   .link-text {
@@ -120,7 +120,7 @@ a:hover {
   
 }
 
-/* RESPONSIVE - DESKTOP */
+/* links - DESKTOP */
 @media (min-width: 1025px) {
   .link-text {
     font-size: 28px;
@@ -156,7 +156,7 @@ a:hover {
   margin-bottom: 40px;
 }
 
-/* RESPONSIVE - TABLET */
+/* header - TABLET */
 @media (min-width: 667px) and (max-width: 1024px) {
 
   .header {
@@ -176,7 +176,7 @@ a:hover {
   }
 }
 
-/* RESPONSIVE - DESKTOP*/
+/* header - DESKTOP*/
 @media (min-width: 1025px) {
 
   .header {
@@ -224,7 +224,7 @@ a:hover {
   margin: 60px 15px 25px 15px;
 }
 
-/* RESPONSIVE - TABLET */
+/* footer - TABLET */
 @media (min-width: 667px) and (max-width: 1024px) {
   .footer-heading {
     font-size: 56px;
@@ -243,7 +243,7 @@ a:hover {
   }
 }
 
-/* RESPONSIVE - DESKTOP*/
+/* footer - DESKTOP*/
 @media (min-width: 1025px) {
   .footer-heading {
     font-size: 56px;
@@ -264,8 +264,6 @@ a:hover {
     margin: 40px 15px 25px 15px;
   }
 }
-
-/* PAGES */
 
 /* Startsida */
 
@@ -299,7 +297,7 @@ a:hover {
   display: none;
 }
 
-/* RESPONSIVE - TABLET */
+/* startsidan - TABLET */
 @media (min-width: 667px) and (max-width: 1024px) {
   
   main {
@@ -364,8 +362,7 @@ a:hover {
 
   .letter {
     padding: 10px;
-    width: 80%;
-    height: 80%;
+    width: 70%;
   }
   
   .letter-box-A {
@@ -377,15 +374,9 @@ a:hover {
     padding: 20px;
   }
   
-  .letter-A {
-    padding: 10px;
-    width: 80%;
-    height: 60%;
-  }
-  
 }
 
-/* RESPONSIVE - DESKTOP Startsida*/
+/* startsida - DESKTOP Startsida*/
 @media (min-width: 1025px) {
 
 main {
@@ -468,6 +459,7 @@ p {
 
 }
 
+/* PAGES */
 /* Historia */
 .historia-wrapper {
   display: flex;

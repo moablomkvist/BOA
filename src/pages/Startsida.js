@@ -43,7 +43,7 @@ export const Startsida = () => {
       </article>
 
       <article className="letter-box-A">
-        <img className="letter-A" src="assets/A.png" alt="letter image"/>
+        <img className="letter" src="assets/A.png" alt="letter image"/>
       </article>
 
     </section>
