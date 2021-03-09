@@ -18,7 +18,7 @@ export const Startsida = () => {
       </article>
 
       <article className="letter-box-O">
-        <img className="letter" src="assets/B.png" alt="letter image"/>
+        <img className="letter" src="assets/O.png" alt="letter image"/>
       </article>
 
       <article className="pristagare">
@@ -43,7 +43,7 @@ export const Startsida = () => {
       </article>
 
       <article className="letter-box-A">
-        <img className="letter-A" src="assets/B.png" alt="letter image"/>
+        <img className="letter-A" src="assets/A.png" alt="letter image"/>
       </article>
 
     </section>
