@@ -258,6 +258,12 @@ a:hover {
     width: 40%;
     margin: 5px;
   }
+
+  .footer-logo {
+    object-fit: fill; 
+    width: 15%;
+    margin: 40px 15px 25px 15px;
+  }
 }
 
 /* PAGES */
