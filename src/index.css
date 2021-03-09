@@ -228,19 +228,18 @@ a:hover {
 @media (min-width: 667px) and (max-width: 1024px) {
   .footer-heading {
     font-size: 56px;
+    margin-bottom: 0;
   }
   
   .logo-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
-    padding: 15px;
+    width: 75%;
   }
   
   .footer-logo {
-    width: 25%;
-    margin: 40px 15px 25px 15px;
+    margin: 35px 15px 30px 15px;
   }
 }
 
