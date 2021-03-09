@@ -22,7 +22,7 @@ export const Startsida = () => {
       </article>
 
       <article className="pristagare">
-        <h2>Aktuella pristagare</h2>
+        <h2>Årets pristagare</h2>
         <h3>Bibi Rödöö</h3>
         <h3>Anders Hansen</h3>
         <Link to="/priser" className="black-arrow-link-element">

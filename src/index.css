@@ -64,15 +64,17 @@ a:hover {
 
 .white-arrow-link-element {
   display: flex;
-  flex-direction: row-reverse;
   font-weight: bold;
   color: white;
 }
 
 .black-arrow-link-element {
   display: flex;
-  flex-direction: row-reverse;
   font-weight: bold;
+}
+
+.link-text {
+  margin: 10px;
 }
 
 .arrow {
@@ -420,7 +422,7 @@ p {
 }
 
 .ledamoter-bild {
-  width: 80%;
+  width: 100%;
 }
 
 .letter-box-B {
