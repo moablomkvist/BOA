@@ -6,7 +6,7 @@ export const Startsida = () => {
     <section className="start-container">
       <article className="uppdrag">
         <h2>Akademins uppdrag</h2>
-        <p>Bild och Ord Akademin är en informationsakademi, som grundades 1983 på initiativ av lexikografen Sven Lidman för att möta ett upplevt behov av en institution som "vårdar språket och kreativiteten i ord- och bildkommunikationen".</p>
+        <p className="akademins-uppdrag-content">Bild och Ord Akademin är en informationsakademi, som grundades 1983 på initiativ av lexikografen Sven Lidman för att möta ett upplevt behov av en institution som "vårdar språket och kreativiteten i ord- och bildkommunikationen".</p>
         <Link to="/historia" className="white-arrow-link-element">
           <img className="arrow" src="assets/white-right-arrow.svg" alt="arrow-link"/>
           <p className="link-text">Akademins historia</p>
@@ -14,11 +14,11 @@ export const Startsida = () => {
       </article>
 
       <article className="letter-box-B">
-        <img className="letter" src="assets/B.png" alt="letter image"/>
+        <img className="letter" src="assets/B.png" alt="letter"/>
       </article>
 
       <article className="letter-box-O">
-        <img className="letter" src="assets/O.png" alt="letter image"/>
+        <img className="letter" src="assets/O.png" alt="letter"/>
       </article>
 
       <article className="pristagare">
@@ -43,7 +43,7 @@ export const Startsida = () => {
       </article>
 
       <article className="letter-box-A">
-        <img className="letter" src="assets/A.png" alt="letter image"/>
+        <img className="letter" src="assets/A.png" alt="letter"/>
       </article>
 
     </section>

@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -105,7 +105,6 @@ a:hover {
 
 /* Links - TABLET */
 @media (min-width: 667px) and (max-width: 1024px) {
-
   .link-text {
     font-size: 28px;
   }
@@ -119,7 +118,6 @@ a:hover {
     font-size: 28px;
     padding-left: 15px;
   }
-  
 }
 
 /* links - DESKTOP */
@@ -160,19 +158,18 @@ a:hover {
 
 /* header - TABLET */
 @media (min-width: 667px) and (max-width: 1024px) {
-
   .header {
     width: 60%;
     margin: 10;
     padding-bottom: 20px;
     justify-content: center;
   }
-  
+
   .logo {
     width: 100%;
     padding-bottom: 15px;
   }
-  
+
   .sub-heading {
     margin-bottom: 15px;
   }
@@ -180,19 +177,18 @@ a:hover {
 
 /* header - DESKTOP*/
 @media (min-width: 1025px) {
-
   .header {
     width: 40%;
     margin: 5;
     padding-bottom: 50px;
     justify-content: center;
   }
-  
+
   .logo {
     width: 100%;
     padding-bottom: 20px;
   }
-  
+
   .sub-heading {
     margin-bottom: 15px;
   }
@@ -221,7 +217,7 @@ a:hover {
 }
 
 .footer-logo {
-  object-fit: fill; 
+  object-fit: fill;
   width: 15%;
   margin: 60px 15px 25px 15px;
 }
@@ -232,14 +228,14 @@ a:hover {
     font-size: 56px;
     margin-bottom: 0;
   }
-  
+
   .logo-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 75%;
   }
-  
+
   .footer-logo {
     margin: 35px 15px 30px 15px;
   }
@@ -251,7 +247,7 @@ a:hover {
     font-size: 56px;
     margin-bottom: 0;
   }
-  
+
   .logo-section {
     display: flex;
     flex-direction: column;
@@ -261,7 +257,7 @@ a:hover {
   }
 
   .footer-logo {
-    object-fit: fill; 
+    object-fit: fill;
     width: 15%;
     margin: 40px 15px 25px 15px;
   }
@@ -272,7 +268,7 @@ a:hover {
 .uppdrag {
   padding: 20px;
   background-color: #640101;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .pristagare {
@@ -282,7 +278,7 @@ a:hover {
 .ledamoter {
   padding: 20px;
   background-color: #640101;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .bild-container {
@@ -293,58 +289,60 @@ a:hover {
 
 .ledamoter-bild {
   width: 100%;
+  border: double 15px black;
 }
 
-.letter-box-B, .letter-box-O, .letter-box-A  {
+.letter-box-B,
+.letter-box-O,
+.letter-box-A {
   display: none;
 }
 
 /* startsidan - TABLET */
 @media (min-width: 667px) and (max-width: 1024px) {
-  
   main {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .start-container {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
+
   .uppdrag {
     width: 50%;
   }
-  
+
   p {
     font-size: 20px;
   }
-  
+
   .footer-text {
     font-size: 16px;
     padding: 30px;
   }
-  
+
   .pristagare {
     width: 50%;
   }
-  
+
   .ledamoter {
     padding: 20px;
     width: 50%;
   }
-  
+
   .bild-container {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   .ledamoter-bild {
     width: 100%;
   }
-  
+
   .letter-box-B {
     display: flex;
     align-items: center;
@@ -353,7 +351,7 @@ a:hover {
     background-color: #640101;
     padding: 40px;
   }
-  
+
   .letter-box-O {
     display: flex;
     align-items: center;
@@ -367,101 +365,100 @@ a:hover {
     padding: 10px;
     width: 80%;
   }
-  
+
   .letter-box-A {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
     background-color: #640101;
-    padding: 20px;
+    padding: 40px;
   }
-  
 }
 
 /* startsida - DESKTOP Startsida*/
 @media (min-width: 1025px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .start-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-.start-container {
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+  .uppdrag {
+    width: 50%;
+    padding-left: 100px;
+  }
 
-.uppdrag {
-  width: 50%;
-}
+  p {
+    font-size: 20px;
+  }
 
-p {
-  font-size: 20px;
-}
+  .footer-text {
+    font-size: 16px;
+    padding: 30px;
+  }
 
-.footer-text {
-  font-size: 16px;
-  padding: 30px;
-}
+  .pristagare {
+    width: 50%;
+  }
 
-.pristagare {
-  width: 50%;
-}
+  .ledamoter {
+    padding: 20px;
+    width: 50%;
+    padding-left: 100px;
+  }
 
-.ledamoter {
-  padding: 20px;
-  width: 50%;
-}
+  .bild-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.bild-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .ledamoter-bild {
+    width: 100%;
+  }
 
-.ledamoter-bild {
-  width: 100%;
-}
+  .letter-box-B {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: #640101;
+    padding: 40px;
+  }
 
-.letter-box-B {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  background-color: #640101;
-  padding: 40px;
-}
+  .letter-box-O {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #ffff;
+    padding: 40px;
+  }
 
-.letter-box-O {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-  background-color: #ffff;
-  padding: 40px;
-}
+  .letter-box-A {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #640101;
+    padding: 40px;
+  }
 
-.letter-box-A {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-  background-color: #640101;
-  padding: 20px;
-}
+  .letter {
+    padding: 10px;
+    width: 50%;
+  }
 
-.letter {
-  padding: 10px;
-  width: 50%;
-}
-
-.letter-A {
-  padding: 10px;
-  width: 50%;
-  height: 40%;
-}
-
+  .letter-A {
+    padding: 10px;
+    width: 50%;
+    height: 40%;
+  }
 }
 
 /* PAGES */
@@ -474,13 +471,13 @@ p {
 .akademins-uppdrag {
   padding: 20px;
   background-color: #640101;
-  color: #FFFFFF;
+  color: #ffffff;
   height: 450px;
 }
 
 .historia {
   padding: 20px 20px 40px 20px;
-  background-color: #F2EBDF;
+  background-color: #f2ebdf;
   color: black;
 }
 
@@ -493,14 +490,108 @@ p {
 .akademins-stolar {
   padding: 20px;
   background-color: #640101;
-  color: #FFFFFF;
+  color: #ffffff;
   height: 530px;
 }
 
 .listade-ledamöter {
   padding: 40px 20px 80px 20px;
-  background-color: #F2EBDF;
+  background-color: #f2ebdf;
   color: black;
+}
+
+/* Priser */
+.akademins-priser {
+  padding: 20px;
+  background-color: #640101;
+  color: #ffffff;
+  height: 430px;
+}
+
+.priser {
+  padding: 40px 40px 80px 40px;
+  background-color: #f2ebdf;
+}
+
+/* PAGES - TABLET */
+@media (min-width: 667px) and (max-width: 1024px) {
+  .akademins-uppdrag {
+    padding-left: 100px;
+  }
+  .akademins-uppdrag-content {
+    width: 100%;
+  }
+
+  .historia {
+    padding-left: 100px;
+  }
+
+  .historia-content {
+    width: 85%;
+  }
+
+  .akademins-priser,
+  .priser {
+    padding-left: 100px;
+  }
+
+  .akademins-priser-content {
+    width: 85%;
+  }
+
+  .akademins-stolar {
+    padding-left: 100px;
+  }
+
+  .akademins-stolar-innehåll {
+    width: 85%;
+  }
+  .listade-ledamöter-innehåll {
+    padding-left: 100px;
+  }
+
+}
+/* PAGES - DESKTOP Startsida*/
+@media (min-width: 1025px) {
+  .akademins-uppdrag {
+    padding-left: 300px;
+  }
+  .uppdraget {
+    width: 50%;
+  }
+  
+  .historia {
+    padding-left: 300px;
+  }
+
+  .historia-content {
+    width: 50%;
+  }
+
+  .akademins-priser,
+  .priser {
+    padding-left: 300px;
+  }
+
+  .akademins-priser-content {
+    width: 50%;
+  }
+
+  .akademins-stolar {
+    padding-left: 300px;
+  }
+
+  .akademins-stolar-innehåll {
+    width: 50%;
+  }
+
+  .listade-ledamöter-innehåll {
+    padding-left: 160px;
+  }
+
+  .priser {
+    width: 100%;
+  }
 }
 
 /* VISITKORT */
@@ -532,16 +623,15 @@ p {
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+
   .visit-card {
     width: 40%;
   }
 
-  .akademins-stolar-innehåll{
+  .akademins-stolar-innehåll {
     width: 80%;
     font-size: 18px;
   }
-
 }
 
 /* RESPONSIVE - DESKTOP*/
@@ -557,23 +647,10 @@ p {
     width: 25%;
   }
 
-  .akademins-stolar-innehåll{
+  .akademins-stolar-innehåll {
     width: 40%;
     font-size: 18px;
   }
-}
-
-/* Priser */
-.akademins-priser {
-  padding: 20px;
-  background-color: #640101;
-  color: #FFFFFF;
-  height: 430px;
-}
-
-.priser {
-  padding: 40px 40px 80px 40px;
-  background-color: #f2ebdf;
 }
 
 /* ACCORDION */
@@ -590,11 +667,11 @@ p {
   max-height: 9999px;
 }
 
-.list-title-icon{
+.list-title-icon {
   display: flex;
 }
 
-.title-icon{
+.title-icon {
   margin-right: 5px;
 }
 
@@ -618,4 +695,18 @@ p {
 
 .accordion-content {
   padding: 0 30px;
+}
+
+/* accordian - TABLET */
+@media (min-width: 667px) and (max-width: 1024px) {
+  .accordion-wrapper {
+    width: 70%;
+  }
+}
+
+/* accordian - DESKTOP*/
+@media (min-width: 1025px) {
+  .accordion-wrapper {
+    width: 50%;
+  }
 }

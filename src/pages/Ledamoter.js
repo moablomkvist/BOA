@@ -18,7 +18,7 @@ export const Ledamoter = () => {
       </p>
     </article>
     <article className="listade-ledamöter">
-      <h3>BOA:s ledamöter</h3>
+      <h3 className="listade-ledamöter-innehåll">BOA:s ledamöter</h3>
         <Visitkort />
     </article>
   </section>
