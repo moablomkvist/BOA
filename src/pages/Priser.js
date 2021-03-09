@@ -13,7 +13,7 @@ export const Priser = () => {
         <p>
           Ända sedan 1980-talet har våra två priser delats ut till pristagare av bred rang. 
           På scen har det stått allt ifrån barnboksförfattare, psykiatriker och dokumentärfilmare till programchefer, professorer och modellmakare. 
-          Gemensamt har varit att de bidragit till att berika med bild och ord.
+          Gemensamt för alla pristagare har varit att de berikar genom antingen bild eller ord.
         </p>
       </article>
 

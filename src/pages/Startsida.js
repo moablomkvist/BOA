@@ -9,7 +9,7 @@ export const Startsida = () => {
         <p>Bild och Ord Akademin är en informationsakademi, som grundades 1983 på initiativ av lexikografen Sven Lidman för att möta ett upplevt behov av en institution som "vårdar språket och kreativiteten i ord- och bildkommunikationen".</p>
         <Link to="/historia" className="white-arrow-link-element">
           <img className="arrow" src="assets/white-right-arrow.svg" alt="arrow-link"/>
-          <p>Akademins historia</p>
+          <p className="link-text">Akademins historia</p>
         </Link>
       </article>
 
@@ -27,7 +27,7 @@ export const Startsida = () => {
         <h3>Anders Hansen</h3>
         <Link to="/priser" className="black-arrow-link-element">
           <img className="arrow" src="assets/black-right-arrow.svg" alt="arrow-link"/>
-          <p>Priser</p>
+          <p className="link-text">Priser</p>
         </Link>
       </article>
 
@@ -38,12 +38,12 @@ export const Startsida = () => {
           </div>
         <Link to="/ledamöter" className="white-arrow-link-element">
           <img className="arrow" src="assets/white-right-arrow.svg" alt="arrow-link"/>
-          <p>Akademins stolar</p>
+          <p className="link-text">Akademins stolar</p>
         </Link>
       </article>
 
       <article className="letter-box-A">
-        <img className="letter" src="assets/B.png" alt="letter image"/>
+        <img className="letter-A" src="assets/B.png" alt="letter image"/>
       </article>
 
     </section>

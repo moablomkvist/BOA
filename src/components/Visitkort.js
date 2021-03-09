@@ -1,19 +1,18 @@
 import React from 'react'
 
-
 export const Visitkort = () => {
   return (
     <section className="visitcard-container">
       <div className="visit-card">
         <div className="visit-content-container">
           <h4 className="card-title">Tom Alandh</h4>
-          <p>Journalist och dokumentärfilmare</p>
+          <p>Journalist & dokumentärfilmare</p>
         </div>
       </div>  
       <div className="visit-card">
         <div className="visit-content-container">
           <h4 className="card-title">Jan-Erik Ander</h4>
-          <p>Tecknare och creative director</p>
+          <p>Tecknare & Creative Director</p>
         </div>
       </div> 
       <div className="visit-card">
@@ -25,19 +24,19 @@ export const Visitkort = () => {
       <div className="visit-card">
         <div className="visit-content-container">
           <h4 className="card-title">Bo Bergström</h4>
-          <p>Art director</p>
+          <p>Art Director</p>
         </div>
       </div> 
       <div className="visit-card">
         <div className="visit-content-container">
           <h4 className="card-title">Caroline Birgersson</h4>
-          <p>UX Specialist och utvecklare</p>
+          <p>UX Specialist & utvecklare</p>
         </div>
       </div>  
       <div className="visit-card">
         <div className="visit-content-container">
           <h4 className="card-title">Moa Blomkvist</h4>
-          <p>UX Specialist och utvecklare</p>
+          <p>UX Specialist & utvecklare</p>
         </div>
       </div> 
       <div className="visit-card">
@@ -49,7 +48,7 @@ export const Visitkort = () => {
       <div className="visit-card">
         <div className="visit-content-container">
           <h4 className="card-title">Kristin Dahl</h4>
-          <p>Doktor i filosofie</p>
+          <p>Doktor i filosofi</p>
         </div>
       </div> 
       <div className="visit-card">
@@ -85,7 +84,7 @@ export const Visitkort = () => {
       <div className="visit-card">
         <div className="visit-content-container">
           <h4 className="card-title">Catharina Grünbaum</h4>
-          <p>Filosofie hedersdoktor och språkvårdare</p>
+          <p>Hedersdoktor i filosofi och språkvårdare</p>
         </div>
       </div> 
       <div className="visit-card">
@@ -97,13 +96,13 @@ export const Visitkort = () => {
       <div className="visit-card">
         <div className="visit-content-container">
           <h4 className="card-title">Owe Gustafson</h4>
-          <p>Illustratör och filmtecknare</p>
+          <p>Illustratör & filmtecknare</p>
         </div>
       </div> 
       <div className="visit-card">
         <div className="visit-content-container">
           <h4 className="card-title">Anders Hanser</h4>
-          <p>Fotograf och filmare</p>
+          <p>Fotograf & filmare</p>
         </div>
       </div>  
       <div className="visit-card">
@@ -121,7 +120,7 @@ export const Visitkort = () => {
       <div className="visit-card">
         <div className="visit-content-container">
           <h4 className="card-title">Peder Jonsson</h4>
-          <p>Teknologie doktor</p>
+          <p>Doktor i teknologi</p>
         </div>
       </div> 
       <div className="visit-card">
@@ -151,7 +150,7 @@ export const Visitkort = () => {
       <div className="visit-card">
         <div className="visit-content-container">
           <h4 className="card-title">Inga Lewenhaupt</h4>
-          <p>Filosofie doktor och teater- och musikforskare</p>
+          <p>Doktor i filosofi & teater- och musikforskare</p>
         </div>
       </div>  
       <div className="visit-card">
@@ -193,13 +192,13 @@ export const Visitkort = () => {
       <div className="visit-card">
         <div className="visit-content-container">
           <h4 className="card-title">Bengt Wanselius</h4>
-          <p>Fotograf och filmare</p>
+          <p>Fotograf & filmare</p>
         </div>
       </div> 
       <div className="visit-card">
         <div className="visit-content-container">
           <h4 className="card-title">Torgny Wärn</h4>
-          <p>Journalist och tecknare</p>
+          <p>Journalist & tecknare</p>
         </div>
       </div>
     </section>
