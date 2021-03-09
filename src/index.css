@@ -346,7 +346,7 @@ a:hover {
   .letter-box-B {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     width: 50%;
     background-color: #640101;
     padding: 40px;
@@ -355,6 +355,7 @@ a:hover {
   .letter-box-O {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 50%;
     background-color: #ffff;
     padding: 40px;
@@ -362,13 +363,13 @@ a:hover {
 
   .letter {
     padding: 10px;
-    width: 70%;
+    width: 80%;
   }
   
   .letter-box-A {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     width: 50%;
     background-color: #640101;
     padding: 20px;
@@ -419,12 +420,12 @@ p {
 }
 
 .ledamoter-bild {
-  width: 100%;
+  width: 80%;
 }
 
 .letter-box-B {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   width: 50%;
   background-color: #640101;
   padding: 40px;
@@ -432,6 +433,8 @@ p {
 
 .letter-box-O {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 50%;
   background-color: #ffff;
   padding: 40px;
@@ -440,7 +443,7 @@ p {
 .letter-box-A {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   width: 50%;
   background-color: #640101;
   padding: 20px;
