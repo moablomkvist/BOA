@@ -66,11 +66,13 @@ a:hover {
   display: flex;
   font-weight: bold;
   color: white;
+  padding: 25px 0;
 }
 
 .black-arrow-link-element {
   display: flex;
   font-weight: bold;
+  padding: 25px 0;
 }
 
 .link-text {
@@ -79,7 +81,6 @@ a:hover {
 
 .arrow {
   width: 30px;
-  margin-left: 10px;
 }
 
 .back-link-element {
@@ -93,6 +94,7 @@ a:hover {
   flex-direction: flex-start;
   font-weight: bold;
   cursor: pointer;
+  margin-left: 25px;
 }
 
 .back-link:hover {
@@ -111,7 +113,6 @@ a:hover {
 
   .arrow {
     width: 40px;
-    margin-left: 15px;
   }
 
   .back-text {
@@ -128,7 +129,6 @@ a:hover {
 
   .arrow {
     width: 45px;
-    margin-left: 15px;
   }
 
   .back-text {
@@ -554,14 +554,15 @@ a:hover {
 /* PAGES - DESKTOP Startsida*/
 @media (min-width: 1025px) {
   .akademins-uppdrag {
-    padding-left: 300px;
+    padding-left: 190px;
+    height: 400px;
   }
   .uppdraget {
     width: 50%;
   }
   
   .historia {
-    padding-left: 300px;
+    padding-left: 190px;
   }
 
   .historia-content {
@@ -570,7 +571,7 @@ a:hover {
 
   .akademins-priser,
   .priser {
-    padding-left: 300px;
+    padding-left: 190px;
   }
 
   .akademins-priser-content {
@@ -578,7 +579,8 @@ a:hover {
   }
 
   .akademins-stolar {
-    padding-left: 300px;
+    padding-left: 190px;
+    height: 420px;
   }
 
   .akademins-stolar-innehåll {
