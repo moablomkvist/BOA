@@ -312,7 +312,7 @@ a:hover {
   }
 
   .uppdrag {
-    width: 50%;
+    width: 60%;
   }
 
   p {
@@ -325,12 +325,12 @@ a:hover {
   }
 
   .pristagare {
-    width: 50%;
+    width: 60%;
   }
 
   .ledamoter {
     padding: 20px;
-    width: 50%;
+    width: 60%;
   }
 
   .bild-container {
@@ -347,7 +347,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 40%;
     background-color: #640101;
     padding: 40px;
   }
@@ -356,7 +356,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 40%;
     background-color: #ffff;
     padding: 40px;
   }
@@ -370,7 +370,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 40%;
     background-color: #640101;
     padding: 40px;
   }
@@ -516,14 +516,16 @@ a:hover {
 /* PAGES - TABLET */
 @media (min-width: 667px) and (max-width: 1024px) {
   .akademins-uppdrag {
-    padding-left: 100px;
+    padding-left: 80px;
+    height: 400px;
   }
+
   .akademins-uppdrag-content {
     width: 100%;
   }
 
   .historia {
-    padding-left: 100px;
+    padding-left: 80px;
   }
 
   .historia-content {
@@ -532,7 +534,7 @@ a:hover {
 
   .akademins-priser,
   .priser {
-    padding-left: 100px;
+    padding-left: 80px;
   }
 
   .akademins-priser-content {
@@ -540,14 +542,15 @@ a:hover {
   }
 
   .akademins-stolar {
-    padding-left: 100px;
+    padding-left: 80px;
+    height: 400px;
   }
 
   .akademins-stolar-innehåll {
     width: 85%;
   }
   .listade-ledamöter-innehåll {
-    padding-left: 100px;
+    padding-left: 70px;
   }
 
 }
