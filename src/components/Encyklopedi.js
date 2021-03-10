@@ -20,7 +20,7 @@ export const Encyklopedi = () => {
       <section key={encyklopedipriset.year}>
         <div className="accordion-content"> 
           <h4>{encyklopedipriset.year}</h4> 
-          <p>{encyklopedipriset.pristagare}</p>
+          <p className="pristagare-namn">{encyklopedipriset.pristagare}</p>
         </div>
       </section>
       )

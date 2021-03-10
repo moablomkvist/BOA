@@ -14,7 +14,7 @@ export const Historia = () => {
         </p>
       </article>
       <article className="historia">
-        <h3>Sven Lidman – akademins grundare</h3>
+      <h3 className="underrubrik">Sven Lidman – akademins grundare</h3>
         <p className="historia-content">
           Initiativet till Bild och Ord Akademin togs av <a href="https://sv.wikipedia.org/wiki/Sven_Lidman_(lexikograf)">Sven Lidman</a> år 1983.  
           Han började sin yrkeskarriär hos Natur & Kulturs grundare Johan Hansson. Det blev början på ett omfattande förnyelsearbete med det som skulle komma att bli

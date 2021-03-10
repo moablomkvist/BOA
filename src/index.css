@@ -40,10 +40,16 @@ h4 {
   font-size: 24px;
   font-weight: 700;
   margin: 5;
+  color: black;
 }
 
 p {
   font-size: 16px;
+}
+
+.pristagare-namn {
+  font-weight: 400;
+  color: black;
 }
 
 .start-container {
@@ -515,13 +521,14 @@ a:hover {
 
 /* PAGES - TABLET */
 @media (min-width: 667px) and (max-width: 1024px) {
+
   .akademins-uppdrag {
     padding-left: 80px;
     height: 400px;
   }
 
-  .akademins-uppdrag-content {
-    width: 100%;
+  .uppdraget {
+    width: 85%;
   }
 
   .historia {
@@ -549,23 +556,31 @@ a:hover {
   .akademins-stolar-innehåll {
     width: 85%;
   }
+
   .listade-ledamöter-innehåll {
     padding-left: 70px;
   }
 
 }
-/* PAGES - DESKTOP Startsida*/
+/* PAGES - DESKTOP */
 @media (min-width: 1025px) {
+
   .akademins-uppdrag {
-    padding-left: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 400px;
   }
-  .uppdraget {
+
+  .uppdraget,
+  .underrubrik {
     width: 50%;
   }
   
   .historia {
-    padding-left: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .historia-content {
@@ -574,7 +589,9 @@ a:hover {
 
   .akademins-priser,
   .priser {
-    padding-left: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .akademins-priser-content {
@@ -582,7 +599,9 @@ a:hover {
   }
 
   .akademins-stolar {
-    padding-left: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 420px;
   }
 
@@ -591,7 +610,9 @@ a:hover {
   }
 
   .listade-ledamöter-innehåll {
-    padding-left: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .priser {
@@ -663,6 +684,7 @@ a:hover {
 .accordion-wrapper {
   display: flex;
   flex-direction: column;
+  padding: 15px 0;
 }
 
 .accordion-item {
@@ -706,6 +728,7 @@ a:hover {
 @media (min-width: 667px) and (max-width: 1024px) {
   .accordion-wrapper {
     width: 70%;
+    padding: 25px 0;
   }
 }
 
@@ -713,5 +736,6 @@ a:hover {
 @media (min-width: 1025px) {
   .accordion-wrapper {
     width: 50%;
+    padding: 30px 0;
   }
 }
