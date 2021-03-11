@@ -5,7 +5,6 @@ import { TillbakaKnapp } from 'components/TillbakaKnapp'
 export const Historia = () => {
   return (
     <section className="historia-wrapper">
-      <TillbakaKnapp />
       <article className="akademins-uppdrag">
         <h1 className="uppdraget">Uppdraget</h1>
         <p className="uppdraget">
@@ -22,6 +21,7 @@ export const Historia = () => {
           I de flesta svenska hem finns ett uppslagsverk som Sven Lidman ligger bakom och det totala antalet sålda exemplar, inklusive de utländska utgåvorna, uppgår idag till 25 miljoner volymer.
         </p>
       </article>
+      <TillbakaKnapp />
     </section>
   )
 }

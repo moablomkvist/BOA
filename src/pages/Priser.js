@@ -7,7 +7,6 @@ import { TillbakaKnapp } from "components/TillbakaKnapp";
 export const Priser = () => {
   return (
     <section>
-      <TillbakaKnapp />
       <article className="akademins-priser">
         <h1 className="akademins-priser-content">Priser</h1>
         <p className="akademins-priser-content">
@@ -32,6 +31,7 @@ export const Priser = () => {
         </p>
         <Encyklopedi />
       </article>
+      <TillbakaKnapp />
     </section>
   );
 };
