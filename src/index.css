@@ -370,6 +370,7 @@ a:hover {
   .letter {
     padding: 10px;
     width: 80%;
+    align-items: flex-start;
   }
 
   .letter-box-A {
@@ -432,6 +433,7 @@ a:hover {
   .letter-box-B {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     width: 50%;
     background-color: #640101;
     padding: 80px 40px;
@@ -460,11 +462,6 @@ a:hover {
     width: 50%;
   }
 
-  .letter-A {
-    padding: 10px;
-    width: 50%;
-    height: 40%;
-  }
 }
 
 /* PAGES */
