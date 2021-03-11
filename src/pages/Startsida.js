@@ -6,7 +6,10 @@ export const Startsida = () => {
     <section className="start-container">
       <article className="uppdrag">
         <h2>Akademins uppdrag</h2>
-        <p className="akademins-uppdrag-content">Bild och Ord Akademin är en informationsakademi, som grundades 1983 på initiativ av lexikografen Sven Lidman för att möta ett upplevt behov av en institution som "vårdar språket och kreativiteten i ord- och bildkommunikationen". Initiativet till Bild och Ord Akademin, som är ett tvärvetenskapligt forum för olika yrkesgrupper inom informationsområdet, togs av Sven Lidman år 1983. Bild och Ord Akademin vill motverka specialisering och fragmentisering.</p>
+        <p className="akademins-uppdrag-content">Bild och Ord Akademin är en informationsakademi, ett tvärvetenskapligt forum för olika yrkesgrupper inom informationsområdet. 
+        Syftet är att stödja både dagens och morgondagens informatörer.
+        Bild och Ord Akademin grundades 1983 på initiativ av lexikografen Sven Lidman för att möta ett upplevt behov av en institution som "vårdar språket och kreativiteten i ord- och bildkommunikationen". 
+        </p>
         <Link to="/historia" className="white-arrow-link-element">
           <img className="arrow" src="assets/white-right-arrow.svg" alt="arrow-link"/>
           <p className="link-text">Akademins historia</p>
